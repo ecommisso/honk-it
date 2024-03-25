@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bop It Game</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<audio id="button-audio" src="audio/duck_quack.mp3"></audio>
+<audio id="potentiometer-audio" src="audio/potentiometer_sound.mp3"></audio>
+<audio id="lose-audio" src="audio/lose_sound.mp3"></audio>
+
+<body>
+
+    <div id="start-screen">
+        <h1 id="title" class="text" style="display: none;">Honk It</h1>
+        <div id="instructions">
+            <p>Click anywhere on the page to connect the device.</p>
+        </div>
+        <button id="start-button" class="button" disabled>Press any key to start</button>
+    </div>
+
+    <div id="game-screen" style="display: none;">
+        <h1 id="command-display"></h1>
+        <h2 id="score-display">Score: <span id="current-score">0</span></h2>
+    </div>
+
+    <div id="lose-screen" style="display: none;">
+        <div class="lose-content">
+            <h1 class="text">YOU LOSE</h1>
+            <h2 id="score-display">Score: <span id="final-score">0</span></h2>
+            <button id="restart-button" class="button">Press any key to restart</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

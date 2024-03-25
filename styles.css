@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #F78154;
+}
+
+button {
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 10px;
+}
+
+#start-screen, #game-screen, #lose-screen {
+    margin-top: 50px;
+    background-color: #F78154;
+}
+
+
+#instructions {
+    margin-bottom: 20px;
+}
+
+
+@keyframes moveText {
+    0%   { transform: translate(0, 0); }
+    25%  { transform: translate(200px, 0); }
+    50%  { transform: translate(200px, 200px); }
+    75%  { transform: translate(0, 200px); }
+    100% { transform: translate(0, 0); }
+}
+
+/* By Ryan: https://codepen.io/ryandsouza13/pen/yEBJQV but with my added animation*/
+.text {
+    position: absolute;
+    top: 30%; 
+    right: 35%;
+    transform: translate(50%,-50%);
+    text-transform: uppercase;
+    font-family: verdana;
+    font-size: 8em;
+    font-weight: 700;
+    color:  #f5f5f5;
+    text-shadow: 1px 1px 1px #919191,
+        1px 2px 1px #919191,
+        1px 3px 1px #919191,
+        1px 4px 1px #919191,
+        1px 5px 1px #919191,
+        1px 6px 1px #919191,
+        1px 7px 1px #919191,
+        1px 8px 1px #919191,
+        1px 9px 1px #919191,
+        1px 10px 1px #919191,
+    1px 18px 6px rgba(16,16,16,0.4),
+    1px 22px 10px rgba(16,16,16,0.2),
+    1px 25px 35px rgba(16,16,16,0.2),
+    1px 30px 60px rgba(16,16,16,0.4);
+    animation-name: moveText;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+
+#score-display {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+  }
+  
+  #current-score {
+    color: #ffd700;
+  }
+
+  #final-score {
+    color: #ffd700;
+  }
