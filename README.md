@@ -1,3 +1,7 @@
+## Process Video:
+
+[![Alt text](https://img.youtube.com/vi/NLnxJidfgQM/0.jpg)](https://youtu.be/NLnxJidfgQM)
+
 ## Installation Process:
 
 1. **Prepare the ESP32**: 
