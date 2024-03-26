@@ -2,6 +2,14 @@
 
 [![Alt text](https://img.youtube.com/vi/NLnxJidfgQM/0.jpg)](https://youtu.be/NLnxJidfgQM)
 
+## Hardware Requirements:
+
+- Button
+- Potentiometer
+- ESP32
+- Breadboard
+- Wires
+
 ## Installation Process:
 
 1. **Prepare the ESP32**: 
